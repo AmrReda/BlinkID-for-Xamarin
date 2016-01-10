@@ -293,6 +293,19 @@ namespace Com.Microblink.Recognition {
 			}
 		}
 
+		static IntPtr id_llIIlIlIIl;
+		// Metadata.xml XPath method reference: path="/api/package[@name='com.microblink.recognition']/class[@name='NativeRecognizerWrapper']/method[@name='llIIlIlIIl' and count(parameter)=0]"
+		[Register ("llIIlIlIIl", "()Lcom/microblink/recognition/RightsManager;", "")]
+		public unsafe global::Com.Microblink.Recognition.RightsManager LlIIlIlIIl ()
+		{
+			if (id_llIIlIlIIl == IntPtr.Zero)
+				id_llIIlIlIIl = JNIEnv.GetMethodID (class_ref, "llIIlIlIIl", "()Lcom/microblink/recognition/RightsManager;");
+			try {
+				return global::Java.Lang.Object.GetObject<global::Com.Microblink.Recognition.RightsManager> (JNIEnv.CallObjectMethod  (Handle, id_llIIlIlIIl), JniHandleOwnership.TransferLocalRef);
+			} finally {
+			}
+		}
+
 		static IntPtr id_llIIlIlIIl_Ljava_lang_String_Landroid_content_Context_;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.microblink.recognition']/class[@name='NativeRecognizerWrapper']/method[@name='llIIlIlIIl' and count(parameter)=2 and parameter[1][@type='java.lang.String'] and parameter[2][@type='android.content.Context']]"
 		[Register ("llIIlIlIIl", "(Ljava/lang/String;Landroid/content/Context;)Ljava/lang/String;", "")]

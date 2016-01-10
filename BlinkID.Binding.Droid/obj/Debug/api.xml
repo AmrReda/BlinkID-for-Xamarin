@@ -26,9 +26,7 @@
 <parameter name="p0" type="com.microblink.hardware.orientation.Orientation">
 </parameter>
 </method>
-<method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="protected">
-</method>
-<method abstract="true" deprecated="not deprecated" final="false" name="llIIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="protected">
+<method abstract="false" deprecated="not deprecated" final="false" name="llIIlIlIIl" native="false" return="com.microblink.view.viewfinder.quadview.QuadViewManager" static="false" synchronized="false" visibility="protected">
 <parameter name="p0" type="com.microblink.view.recognition.RecognizerView">
 </parameter>
 </method>
@@ -425,10 +423,6 @@
 <class abstract="false" deprecated="not deprecated" extends="com.microblink.activity.BaseScanActivity" extends-generic-aware="com.microblink.activity.BaseScanActivity" final="false" name="ScanActivity" static="false" visibility="public">
 <constructor deprecated="not deprecated" final="false" name="ScanActivity" static="false" type="com.microblink.activity.ScanActivity" visibility="public">
 </constructor>
-<method abstract="false" deprecated="not deprecated" final="false" name="llIIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="protected">
-<parameter name="p0" type="com.microblink.view.recognition.RecognizerView">
-</parameter>
-</method>
 <method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="protected">
 <parameter name="p0" type="com.microblink.view.recognition.RecognizerView">
 </parameter>
@@ -2080,7 +2074,7 @@
 </method>
 <method abstract="false" deprecated="not deprecated" final="true" name="IlIIIIIlll" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
-<method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="com.microblink.secured.llIllllIIl" static="false" synchronized="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="com.microblink.recognition.RightsManager" static="false" synchronized="false" visibility="public">
 </method>
 <method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="public">
 <parameter name="p0" type="com.microblink.hardware.camera.frame.ICameraFrame">
@@ -5122,7 +5116,7 @@
 </method>
 <method abstract="false" deprecated="not deprecated" final="true" name="llIIlIIlll" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
-<method abstract="true" deprecated="not deprecated" final="false" name="llIIlIlIIl" native="false" return="android.hardware.Camera.PreviewCallback" static="false" synchronized="false" visibility="protected">
+<method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="android.view.SurfaceHolder.Callback" static="false" synchronized="false" visibility="public">
 </method>
 <method abstract="false" deprecated="not deprecated" final="true" name="llIIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="public">
 <parameter name="p0" type="android.graphics.Rect[]">
@@ -6630,7 +6624,7 @@
 </method>
 <method abstract="false" deprecated="not deprecated" final="true" name="lllIIIlIlI" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
-<method abstract="false" deprecated="not deprecated" final="true" name="lllIlIlIIl" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<method abstract="false" deprecated="not deprecated" final="true" name="lllIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
 <method abstract="false" deprecated="not deprecated" final="true" name="setCamera" native="false" return="void" static="false" synchronized="false" visibility="public">
 <parameter name="p0" type="android.hardware.Camera">
@@ -6866,7 +6860,7 @@
 </method>
 <method abstract="true" deprecated="not deprecated" final="false" name="lllIIIlIlI" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
-<method abstract="true" deprecated="not deprecated" final="false" name="lllIlIlIIl" native="false" return="boolean" static="false" synchronized="false" visibility="public">
+<method abstract="true" deprecated="not deprecated" final="false" name="lllIlIlIIl" native="false" return="void" static="false" synchronized="false" visibility="public">
 </method>
 <method abstract="true" deprecated="not deprecated" final="false" name="setCamera" native="false" return="void" static="false" synchronized="false" visibility="public">
 <parameter name="p0" type="android.hardware.Camera">

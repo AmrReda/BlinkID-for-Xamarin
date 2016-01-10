@@ -15,6 +15,8 @@ namespace BlinkIDDemo.TestApp
 {
 	public class ScanActivity : Activity, ICameraEventsListener, IScanResultListener
 	{
+		
+
 		private static String LICENSE = "UF57DWJN-MCIEASQR-3FUVQU2V-WQ2YBMT4-SH4UTH2I-Z6MDB6FO-36NHEV7P-CZYI7I5N";
  
 		private RecognizerView mRecognizerView;
@@ -24,7 +26,7 @@ namespace BlinkIDDemo.TestApp
 		private EditText mResult; 
 		private bool mTorchOn = false; 
 		private TextView mMessage; 
-		private SlidingTabLayout mTitleIndicator; 
+		//private SlidingTabLayout mTitleIndicator; 
 		private ScanConfiguration[] mConfiguration = Configurator.createScanConfigurations(); 
 		private int mSelectedConfiguration = 0;
 
@@ -36,12 +38,12 @@ namespace BlinkIDDemo.TestApp
 		{
 			base.OnCreate (savedInstanceState);
  
-			mRecognizerView = (RecognizerView) findViewById(R.id.rec_view);
-			mFlashButton = (ImageButton) findViewById(R.id.btnFlash);
-			mResultView = findViewById(R.id.layResult);
-			mMessage = (TextView) findViewById(R.id.txtMessage);
-			mResult = (EditText) findViewById(R.id.txtResult);
-			mTitleIndicator = (SlidingTabLayout) findViewById(R.id.indicator);
+			//mRecognizerView = (RecognizerView) findViewById(R.id.rec_view);
+			//mFlashButton = (ImageButton) findViewById(R.id.btnFlash);
+			//mResultView = findViewById(R.id.layResult);
+			//mMessage = (TextView) findViewById(R.id.txtMessage);
+			//mResult = (EditText) findViewById(R.id.txtResult);
+			//mTitleIndicator = (SlidingTabLayout) findViewById(R.id.indicator);
 		}
 
 		protected override void OnStart ()
@@ -49,8 +51,48 @@ namespace BlinkIDDemo.TestApp
 			base.OnStart ();
 			// all activity lifecycle events must be passed on to RecognizerView
 			if(mRecognizerView != null) {
-				mRecognizerView.start();
+				mRecognizerView.Start();
 			}
+		}
+
+		public void OnCameraPermissionDenied ()
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnCameraPreviewStarted ()
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnCameraPreviewStopped ()
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnError (Java.Lang.Throwable p0)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnAutofocusFailed ()
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnAutofocusStarted (Android.Graphics.Rect[] p0)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnAutofocusStopped (Android.Graphics.Rect[] p0)
+		{
+			throw new NotImplementedException ();
+		}
+
+		public void OnScanningDone (RecognitionResults p0)
+		{
+			throw new NotImplementedException ();
 		}
 	}
 }

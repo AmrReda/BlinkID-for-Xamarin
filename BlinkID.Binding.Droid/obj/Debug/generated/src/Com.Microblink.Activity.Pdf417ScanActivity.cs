@@ -104,7 +104,7 @@ namespace Com.Microblink.Activity {
 		static IntPtr id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.microblink.activity']/class[@name='Pdf417ScanActivity']/method[@name='llIIlIlIIl' and count(parameter)=1 and parameter[1][@type='com.microblink.view.recognition.RecognizerView']]"
 		[Register ("llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)V", "")]
-		protected override sealed unsafe void LlIIlIlIIl (global::Com.Microblink.View.Recognition.RecognizerView p0)
+		protected unsafe void LlIIlIlIIl (global::Com.Microblink.View.Recognition.RecognizerView p0)
 		{
 			if (id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ == IntPtr.Zero)
 				id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ = JNIEnv.GetMethodID (class_ref, "llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)V");

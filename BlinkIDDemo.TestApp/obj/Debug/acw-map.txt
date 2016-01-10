@@ -2,6 +2,10 @@ BlinkIDDemo.TestApp.MainActivity, BlinkIDDemo.TestApp;md5bd6b29ce7c43d65aac8fd63
 BlinkIDDemo.TestApp.MainActivity, BlinkIDDemo.TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
 BlinkIDDemo.TestApp.MainActivity;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
 blinkiddemo.testapp.MainActivity;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
+BlinkIDDemo.TestApp.ScanActivity, BlinkIDDemo.TestApp;md5bd6b29ce7c43d65aac8fd631bd10c6e2.ScanActivity
+BlinkIDDemo.TestApp.ScanActivity, BlinkIDDemo.TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bd6b29ce7c43d65aac8fd631bd10c6e2.ScanActivity
+BlinkIDDemo.TestApp.ScanActivity;md5bd6b29ce7c43d65aac8fd631bd10c6e2.ScanActivity
+blinkiddemo.testapp.ScanActivity;md5bd6b29ce7c43d65aac8fd631bd10c6e2.ScanActivity
 Com.Microblink.DirectApi.IDirectApiErrorListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.directApi.DirectApiErrorListenerImplementor
 Com.Microblink.DirectApi.IDirectApiErrorListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.directApi.DirectApiErrorListenerImplementor
 Com.Microblink.DirectApi.IDirectApiErrorListenerImplementor;mono.com.microblink.directApi.DirectApiErrorListenerImplementor

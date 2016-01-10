@@ -308,39 +308,44 @@ namespace Com.Microblink.Activity {
 			}
 		}
 
-		static IntPtr id_llIIlIlIIl;
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.microblink.activity']/class[@name='BaseScanActivity']/method[@name='llIIlIlIIl' and count(parameter)=0]"
-		[Register ("llIIlIlIIl", "()V", "")]
-		protected unsafe void LlIIlIlIIl ()
-		{
-			if (id_llIIlIlIIl == IntPtr.Zero)
-				id_llIIlIlIIl = JNIEnv.GetMethodID (class_ref, "llIIlIlIIl", "()V");
-			try {
-				JNIEnv.CallVoidMethod  (Handle, id_llIIlIlIIl);
-			} finally {
-			}
-		}
-
 		static Delegate cb_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_;
 #pragma warning disable 0169
 		static Delegate GetLlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_Handler ()
 		{
 			if (cb_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ == null)
-				cb_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ = JNINativeWrapper.CreateDelegate ((Action<IntPtr, IntPtr, IntPtr>) n_LlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_);
+				cb_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ = JNINativeWrapper.CreateDelegate ((Func<IntPtr, IntPtr, IntPtr, IntPtr>) n_LlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_);
 			return cb_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_;
 		}
 
-		static void n_LlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
+		static IntPtr n_LlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ (IntPtr jnienv, IntPtr native__this, IntPtr native_p0)
 		{
 			global::Com.Microblink.Activity.BaseScanActivity __this = global::Java.Lang.Object.GetObject<global::Com.Microblink.Activity.BaseScanActivity> (jnienv, native__this, JniHandleOwnership.DoNotTransfer);
 			global::Com.Microblink.View.Recognition.RecognizerView p0 = global::Java.Lang.Object.GetObject<global::Com.Microblink.View.Recognition.RecognizerView> (native_p0, JniHandleOwnership.DoNotTransfer);
-			__this.LlIIlIlIIl (p0);
+			IntPtr __ret = JNIEnv.ToLocalJniHandle (__this.LlIIlIlIIl (p0));
+			return __ret;
 		}
 #pragma warning restore 0169
 
+		static IntPtr id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_;
 		// Metadata.xml XPath method reference: path="/api/package[@name='com.microblink.activity']/class[@name='BaseScanActivity']/method[@name='llIIlIlIIl' and count(parameter)=1 and parameter[1][@type='com.microblink.view.recognition.RecognizerView']]"
-		[Register ("llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)V", "GetLlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_Handler")]
-		protected abstract void LlIIlIlIIl (global::Com.Microblink.View.Recognition.RecognizerView p0);
+		[Register ("llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)Lcom/microblink/view/viewfinder/quadview/QuadViewManager;", "GetLlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_Handler")]
+		protected virtual unsafe global::Com.Microblink.View.Viewfinder.Quadview.QuadViewManager LlIIlIlIIl (global::Com.Microblink.View.Recognition.RecognizerView p0)
+		{
+			if (id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ == IntPtr.Zero)
+				id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ = JNIEnv.GetMethodID (class_ref, "llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)Lcom/microblink/view/viewfinder/quadview/QuadViewManager;");
+			try {
+				JValue* __args = stackalloc JValue [1];
+				__args [0] = new JValue (p0);
+
+				global::Com.Microblink.View.Viewfinder.Quadview.QuadViewManager __ret;
+				if (GetType () == ThresholdType)
+					__ret = global::Java.Lang.Object.GetObject<global::Com.Microblink.View.Viewfinder.Quadview.QuadViewManager> (JNIEnv.CallObjectMethod  (Handle, id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_, __args), JniHandleOwnership.TransferLocalRef);
+				else
+					__ret = global::Java.Lang.Object.GetObject<global::Com.Microblink.View.Viewfinder.Quadview.QuadViewManager> (JNIEnv.CallNonvirtualObjectMethod  (Handle, ThresholdClass, JNIEnv.GetMethodID (ThresholdClass, "llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)Lcom/microblink/view/viewfinder/quadview/QuadViewManager;"), __args), JniHandleOwnership.TransferLocalRef);
+				return __ret;
+			} finally {
+			}
+		}
 
 		static Delegate cb_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_Landroid_os_Bundle_;
 #pragma warning disable 0169
@@ -831,21 +836,6 @@ namespace Com.Microblink.Activity {
 
 		protected override global::System.Type ThresholdType {
 			get { return typeof (BaseScanActivityInvoker); }
-		}
-
-		static IntPtr id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_;
-		// Metadata.xml XPath method reference: path="/api/package[@name='com.microblink.activity']/class[@name='BaseScanActivity']/method[@name='llIIlIlIIl' and count(parameter)=1 and parameter[1][@type='com.microblink.view.recognition.RecognizerView']]"
-		[Register ("llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)V", "GetLlIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_Handler")]
-		protected override unsafe void LlIIlIlIIl (global::Com.Microblink.View.Recognition.RecognizerView p0)
-		{
-			if (id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ == IntPtr.Zero)
-				id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_ = JNIEnv.GetMethodID (class_ref, "llIIlIlIIl", "(Lcom/microblink/view/recognition/RecognizerView;)V");
-			try {
-				JValue* __args = stackalloc JValue [1];
-				__args [0] = new JValue (p0);
-				JNIEnv.CallVoidMethod  (Handle, id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_, __args);
-			} finally {
-			}
 		}
 
 		static IntPtr id_llIIlIlIIl_Lcom_microblink_view_recognition_RecognizerView_Landroid_os_Bundle_;
