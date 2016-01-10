@@ -1,0 +1,36 @@
+BlinkIDDemo.TestApp.MainActivity, BlinkIDDemo.TestApp;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
+BlinkIDDemo.TestApp.MainActivity, BlinkIDDemo.TestApp, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
+BlinkIDDemo.TestApp.MainActivity;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
+blinkiddemo.testapp.MainActivity;md5bd6b29ce7c43d65aac8fd631bd10c6e2.MainActivity
+Com.Microblink.DirectApi.IDirectApiErrorListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.directApi.DirectApiErrorListenerImplementor
+Com.Microblink.DirectApi.IDirectApiErrorListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.directApi.DirectApiErrorListenerImplementor
+Com.Microblink.DirectApi.IDirectApiErrorListenerImplementor;mono.com.microblink.directApi.DirectApiErrorListenerImplementor
+mono.com.microblink.directApi.DirectApiErrorListenerImplementor;mono.com.microblink.directApi.DirectApiErrorListenerImplementor
+Com.Microblink.Hardware.Camera.Camera1.Focus.IAutofocusListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.hardware.camera.camera1.focus.AutofocusListenerImplementor
+Com.Microblink.Hardware.Camera.Camera1.Focus.IAutofocusListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.hardware.camera.camera1.focus.AutofocusListenerImplementor
+Com.Microblink.Hardware.Camera.Camera1.Focus.IAutofocusListenerImplementor;mono.com.microblink.hardware.camera.camera1.focus.AutofocusListenerImplementor
+mono.com.microblink.hardware.camera.camera1.focus.AutofocusListenerImplementor;mono.com.microblink.hardware.camera.camera1.focus.AutofocusListenerImplementor
+Com.Microblink.Hardware.Orientation.IOrientationChangeListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.hardware.orientation.OrientationChangeListenerImplementor
+Com.Microblink.Hardware.Orientation.IOrientationChangeListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.hardware.orientation.OrientationChangeListenerImplementor
+Com.Microblink.Hardware.Orientation.IOrientationChangeListenerImplementor;mono.com.microblink.hardware.orientation.OrientationChangeListenerImplementor
+mono.com.microblink.hardware.orientation.OrientationChangeListenerImplementor;mono.com.microblink.hardware.orientation.OrientationChangeListenerImplementor
+Com.Microblink.Metadata.IMetadataListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.metadata.MetadataListenerImplementor
+Com.Microblink.Metadata.IMetadataListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.metadata.MetadataListenerImplementor
+Com.Microblink.Metadata.IMetadataListenerImplementor;mono.com.microblink.metadata.MetadataListenerImplementor
+mono.com.microblink.metadata.MetadataListenerImplementor;mono.com.microblink.metadata.MetadataListenerImplementor
+Com.Microblink.View.IOnSizeChangedListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.view.OnSizeChangedListenerImplementor
+Com.Microblink.View.IOnSizeChangedListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.view.OnSizeChangedListenerImplementor
+Com.Microblink.View.IOnSizeChangedListenerImplementor;mono.com.microblink.view.OnSizeChangedListenerImplementor
+mono.com.microblink.view.OnSizeChangedListenerImplementor;mono.com.microblink.view.OnSizeChangedListenerImplementor
+Com.Microblink.View.IOrientationAllowedListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.view.OrientationAllowedListenerImplementor
+Com.Microblink.View.IOrientationAllowedListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.view.OrientationAllowedListenerImplementor
+Com.Microblink.View.IOrientationAllowedListenerImplementor;mono.com.microblink.view.OrientationAllowedListenerImplementor
+mono.com.microblink.view.OrientationAllowedListenerImplementor;mono.com.microblink.view.OrientationAllowedListenerImplementor
+Com.Microblink.View.Recognition.IScanResultListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.view.recognition.ScanResultListenerImplementor
+Com.Microblink.View.Recognition.IScanResultListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.view.recognition.ScanResultListenerImplementor
+Com.Microblink.View.Recognition.IScanResultListenerImplementor;mono.com.microblink.view.recognition.ScanResultListenerImplementor
+mono.com.microblink.view.recognition.ScanResultListenerImplementor;mono.com.microblink.view.recognition.ScanResultListenerImplementor
+Com.Microblink.View.Viewfinder.Quadview.IQuadViewAnimationListenerImplementor, BlinkID.Binding.Droid;mono.com.microblink.view.viewfinder.quadview.QuadViewAnimationListenerImplementor
+Com.Microblink.View.Viewfinder.Quadview.IQuadViewAnimationListenerImplementor, BlinkID.Binding.Droid, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;mono.com.microblink.view.viewfinder.quadview.QuadViewAnimationListenerImplementor
+Com.Microblink.View.Viewfinder.Quadview.IQuadViewAnimationListenerImplementor;mono.com.microblink.view.viewfinder.quadview.QuadViewAnimationListenerImplementor
+mono.com.microblink.view.viewfinder.quadview.QuadViewAnimationListenerImplementor;mono.com.microblink.view.viewfinder.quadview.QuadViewAnimationListenerImplementor

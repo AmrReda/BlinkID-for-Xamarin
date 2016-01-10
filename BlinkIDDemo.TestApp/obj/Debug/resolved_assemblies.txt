@@ -1,0 +1,10 @@
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/BlinkIDDemo.TestApp.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/Mono.Android.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/mscorlib.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/System.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/System.Xml.Linq.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/System.Xml.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/System.Core.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/BlinkID.Binding.Droid.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/System.Runtime.Serialization.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/assemblies/System.ServiceModel.Internals.dll

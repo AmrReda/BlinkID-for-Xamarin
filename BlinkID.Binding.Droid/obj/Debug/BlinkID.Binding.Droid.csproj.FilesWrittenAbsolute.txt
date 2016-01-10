@@ -1,0 +1,6 @@
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkID.Binding.Droid/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkID.Binding.Droid/obj/Debug/BlinkID.Binding.Droid.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkID.Binding.Droid/bin/Debug/BlinkID.Binding.Droid.dll.mdb
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkID.Binding.Droid/bin/Debug/BlinkID.Binding.Droid.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkID.Binding.Droid/obj/Debug/BlinkID.Binding.Droid.dll
+/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkID.Binding.Droid/obj/Debug/BlinkID.Binding.Droid.dll.mdb

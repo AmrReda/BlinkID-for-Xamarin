@@ -1,0 +1,6 @@
+C:\Projects\New\BlinkIDDemo\BlinkID.Binding.Droid\bin\Debug\BlinkID.Binding.Droid.dll
+C:\Projects\New\BlinkIDDemo\BlinkID.Binding.Droid\bin\Debug\BlinkID.Binding.Droid.pdb
+C:\Projects\New\BlinkIDDemo\BlinkID.Binding.Droid\obj\Debug\BlinkID.Binding.Droid.dll
+C:\Projects\New\BlinkIDDemo\BlinkID.Binding.Droid\obj\Debug\BlinkID.Binding.Droid.pdb
+C:\Projects\New\BlinkIDDemo\BlinkID.Binding.Droid\obj\Debug\BlinkID.Binding.Droid.dll.mdb
+C:\Projects\New\BlinkIDDemo\BlinkID.Binding.Droid\bin\Debug\BlinkID.Binding.Droid.dll.mdb

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Paths>
+  <Jars></Jars>
+  <ResolvedResourceDirectories>
+    <ResolvedResourceDirectory>/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/__library_projects__/BlinkID.Binding.Droid/library_project_imports/res</ResolvedResourceDirectory>
+  </ResolvedResourceDirectories>
+  <ResolvedAssetDirectories>
+    <ResolvedAssetDirectory>/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/__library_projects__/BlinkID.Binding.Droid/library_project_imports/assets</ResolvedAssetDirectory>
+  </ResolvedAssetDirectories>
+  <ResolvedEnvironmentFiles />
+  <ResolvedResourceDirectoryStamps>
+    <ResolvedResourceDirectoryStamp>/Users/amrreda/Downloads/@Projects/BlinkIDDemo/BlinkIDDemo.TestApp/obj/Debug/__library_projects__/BlinkID.Binding.Droid.stamp</ResolvedResourceDirectoryStamp>
+  </ResolvedResourceDirectoryStamps>
+</Paths>

@@ -1,0 +1,14 @@
+<metadata>
+  <attr path="/api/package[@name='com.microblink.view.recognition']/class[@name='RecognizerView']/method[@name='createCameraListener' and count(parameter)=0]" name="visibility">public</attr>
+  <attr path="/api/package[@name='com.microblink.view.recognition']/class[@name='RecognizerView']/method[@name='requireAutofocusFeature' and count(parameter)=0]" name="visibility">public</attr>
+
+  <remove-node path="/api/package[@name='com.microblink.secured']" />
+  <remove-node  path="/api/package[@name='com.microblink.recognition.callback']/class[@name='RecognitionProcessCallback']/method[@name='finalize' and count(parameter)=0]" />
+  <!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+</metadata>
